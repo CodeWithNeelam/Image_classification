@@ -9,3 +9,18 @@ Feature Extraction → The model identifies important patterns (edges, textures,
 Classification → The extracted features are passed through layers that assign probabilities to possible classes.
 
 Prediction → The class with the highest probability is chosen as the final label.
+
+Example
+
+If you train a CNN on a dataset with images of animals (dogs, cats, birds), the model learns to differentiate their features.
+
+Input: a new unseen image
+
+Output:
+
+Dog → 0.05
+
+Cat → 0.90
+
+Bird → 0.05
+Predicted Class: Cat
